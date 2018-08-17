@@ -1,7 +1,7 @@
 {
-  "port": 4002,
+  "port": 4101,
   "address": "0.0.0.0",
-  "version": "1.1.1",
+  "version": "0.0.1",
   "fileLogLevel": "info",
   "logFileName": "logs/ark.log",
   "consoleLogLevel": "debug",
@@ -9,7 +9,7 @@
   "db": {
     "host": "localhost",
     "port": 5432,
-    "database": "ark_devnet",
+    "database": "ark_bridgechain",
     "user": null,
     "password": "password",
     "poolSize": 20,
@@ -34,27 +34,11 @@
     }
   },
   "peers": {
-    "minimumNetworkReach": 10,
+    "minimumNetworkReach": 1,
     "list": [
       {
-        "ip": "167.114.29.51",
-        "port": 4002
-      },
-      {
-        "ip": "167.114.29.52",
-        "port": 4002
-      },
-      {
-        "ip": "167.114.29.53",
-        "port": 4002
-      },
-      {
-        "ip": "167.114.29.54",
-        "port": 4002
-      },
-      {
-        "ip": "167.114.29.55",
-        "port": 4002
+        "ip": "185.85.18.192",
+        "port": 4100
       }
     ],
     "blackList": [],
@@ -72,7 +56,7 @@
   "forging": {
     "coldstart": 6,
     "force": true,
-    "secret": [],
+    "secret": ["YOUR PASSPHRASE HERE 12 WORDS"],
     "access": {
       "whiteList": [
         "127.0.0.1"
@@ -92,6 +76,6 @@
       "cert": "./ssl/ark.crt"
     }
   },
-  "network": "devnet",
-  "nethash": "578e820911f24e039733b45e4882b73e301f813a0d2c31330dafda84534ffa23"
+  "network": "Qredit",
+  "nethash": "5e67037fd290ba7ab378e84a591d251c46eb9770eb134983771fd602233bf193"
 }

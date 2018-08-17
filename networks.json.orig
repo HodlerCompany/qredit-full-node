@@ -8,9 +8,9 @@
     "pubKeyHash": 23,
     "wif": 170,
     "client": {
-      "token": "ARK",
-      "symbol": "Ѧ",
-      "explorer": "https://explorer.ark.io"
+      "token":"ARK",
+      "symbol":"Ѧ",
+      "explorer":"https://explorer.ark.io"
     }
   },
   "bitcoin": {
@@ -22,8 +22,8 @@
     "pubKeyHash": 1,
     "wif": 1,
     "client": {
-      "token": "Bitcoin",
-      "symbol": "B"
+      "token":"Bitcoin",
+      "symbol":"B"
     }
   },
   "testnet": {
@@ -35,9 +35,9 @@
     "pubKeyHash": 82,
     "wif": 186,
     "client": {
-      "token": "TARK",
-      "symbol": "TѦ",
-      "explorer": "http://texplorer.ark.io"
+      "token":"TARK",
+      "symbol":"TѦ",
+      "explorer":"http://texplorer.ark.io"
     }
   },
   "devnet": {
@@ -49,23 +49,9 @@
     "pubKeyHash": 30,
     "wif": 187,
     "client": {
-      "token": "DARK",
-      "symbol": "DѦ",
-      "explorer": "http://dexplorer.ark.io"
-    }
-  },
-  "Qredit": {
-    "messagePrefix": "Qredit message:\n",
-    "bip32": {
-      "public": 70617039,
-      "private": 70615956
-    },
-    "pubKeyHash": 58,
-    "wif": 187,
-    "client": {
-      "token": "QREDIT",
-      "symbol": "QRT",
-      "explorer": "http://185.85.18.192:4200"
+      "token":"DARK",
+      "symbol":"DѦ",
+      "explorer":"http://dexplorer.ark.io"
     }
   }
 }

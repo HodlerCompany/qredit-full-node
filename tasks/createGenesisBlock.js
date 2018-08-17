@@ -10,7 +10,7 @@ var Crypto = require('../helpers/crypto.js');
 var networks = require('../networks.json');
 
 // network name that SHOULD already be preconfigured in ../networks.json
-var network_name = "bitcoin";
+var network_name = "Qredit";
 if(!networks[network_name]){
   console.log("WARNING: no configuration found in networks.json for '"+network_name+"'. Defaulting to 'devnet'");
   network_name = "devnet";
@@ -49,7 +49,7 @@ var seed_peers = [
 ];
 
 // default db named
-var db_name = "ark_" + network_name;
+var db_name = "qredit_db";
 
 // optional premined accounts. Example :
 // [
@@ -66,7 +66,7 @@ else {
 }
 
 // Total of premined token in satoshi. The premined accounts will be substracted to this
-var totalpremine = 2100000000000000;
+var totalpremine = 70000000000000000;
 
 
 // config file that will be tuned and exported
