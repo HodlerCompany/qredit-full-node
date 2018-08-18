@@ -1,7 +1,7 @@
 {
-  "port": 4000,
+  "port": 4101,
   "address": "0.0.0.0",
-  "version": "0.2.1",
+  "version": "0.0.1",
   "fileLogLevel": "info",
   "logFileName": "logs/ark.log",
   "consoleLogLevel": "debug",
@@ -9,7 +9,7 @@
   "db": {
     "host": "localhost",
     "port": 5432,
-    "database": "ark_test",
+    "database": "qrt_blockchain",
     "user": null,
     "password": "password",
     "poolSize": 20,
@@ -20,6 +20,7 @@
     ]
   },
   "api": {
+    "mount": true,
     "access": {
       "whiteList": []
     },
@@ -36,8 +37,8 @@
     "minimumNetworkReach": 1,
     "list": [
       {
-        "ip": "127.0.0.1",
-        "port": 4000
+        "ip": "185.85.18.192",
+        "port": 4100
       }
     ],
     "blackList": [],
@@ -53,9 +54,9 @@
     }
   },
   "forging": {
-    "coldstart": 60,
+    "coldstart": 6,
     "force": true,
-    "secret": [],
+    "secret": ["YOUR PASSPHRASE HERE 12 WORDS"],
     "access": {
       "whiteList": [
         "127.0.0.1"
@@ -66,9 +67,6 @@
     "verifyOnLoading": false,
     "loadPerIteration": 5000
   },
-  "modules": {
-      "example":"./optional/example.js"
-  },
   "ssl": {
     "enabled": false,
     "options": {
@@ -78,5 +76,6 @@
       "cert": "./ssl/ark.crt"
     }
   },
-  "nethash": "31a3d2f549dcb0ce6856b5d440cb7a1402d766f290a89d408f155f937f106f8c"
+  "network": "Qredit",
+  "nethash": "5e67037fd290ba7ab378e84a591d251c46eb9770eb134983771fd602233bf193"
 }
