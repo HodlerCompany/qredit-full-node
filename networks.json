@@ -1,0 +1,16 @@
+{
+  "Qredit": {
+    "messagePrefix": "Qredit message:\n",
+    "bip32": {
+      "public": 70617039,
+      "private": 70615956
+    },
+    "pubKeyHash": 58,
+    "wif": 187,
+    "client": {
+      "token": "QREDIT",
+      "symbol": "XQR",
+      "explorer": "http://185.85.18.192:4200"
+    }
+  }
+}

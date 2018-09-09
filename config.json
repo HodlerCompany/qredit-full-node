@@ -1,0 +1,107 @@
+{
+  "port": 4101,
+  "address": "0.0.0.0",
+  "version": "0.0.1",
+  "fileLogLevel": "info",
+  "logFileName": "logs/ark.log",
+  "consoleLogLevel": "debug",
+  "trustProxy": false,
+  "db": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "qredit_db",
+    "user": null,
+    "password": "password",
+    "poolSize": 20,
+    "poolIdleTimeout": 30000,
+    "reapIntervalMillis": 1000,
+    "logEvents": [
+      "error"
+    ]
+  },
+  "api": {
+    "mount": true,
+    "access": {
+      "whiteList": []
+    },
+    "options": {
+      "limits": {
+        "max": 0,
+        "delayMs": 0,
+        "delayAfter": 0,
+        "windowMs": 60000
+      }
+    }
+  },
+  "peers": {
+    "queryReach": 20,
+    "minimumNetworkReach": 1,
+    "list": [
+    "list": [
+    {
+       "ip": "52.42.208.237",
+       "port": 4101
+     },
+     {
+       "ip": "185.85.18.192",
+       "port": 4100
+     },
+     {
+       "ip": "213.125.22.42",
+       "port": 4101
+     },
+     {
+       "ip": "136.144.215.24",
+       "port": 4101
+     },
+     {
+       "ip": "52.49.159.191",
+       "port": 4101
+     },
+     {
+       "ip": "18.197.185.113",
+       "port": 4101
+     },
+     {
+       "ip": "13.251.46.213",
+       "port": 4101
+     }
+    ],
+    "blackList": [],
+    "options": {
+      "limits": {
+        "max": 0,
+        "delayMs": 0,
+        "delayAfter": 0,
+        "windowMs": 60000
+      },
+      "maxUpdatePeers": 20,
+      "timeout": 5000
+    }
+  },
+  "forging": {
+    "coldstart": 6,
+    "force": true,
+    "secret": ["YOUR PASSWORD HERE"],
+    "access": {
+      "whiteList": [
+        "127.0.0.1"
+      ]
+    }
+  },
+  "loading": {
+    "verifyOnLoading": false,
+    "loadPerIteration": 5000
+  },
+  "ssl": {
+    "enabled": false,
+    "options": {
+      "port": 4300,
+      "address": "0.0.0.0",
+      "key": "/ssl/xqr.pem",
+      "cert": "/ssl/xqrpriv.pem"
+    }
+  },
+  "network": "Qredit",
+  "nethash": "5e67037fd290ba7ab378e84a591d251c46eb9770eb134983771fd602233bf193"
+}
