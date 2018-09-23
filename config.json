@@ -3,7 +3,7 @@
   "address": "0.0.0.0",
   "version": "0.0.1",
   "fileLogLevel": "info",
-  "logFileName": "$logs/qredit.log",
+  "logFileName": "logs/qredit.log",
   "consoleLogLevel": "debug",
   "trustProxy": false,
   "db": {
