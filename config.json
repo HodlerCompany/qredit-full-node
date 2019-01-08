@@ -9,7 +9,7 @@
   "db": {
     "host": "localhost",
     "port": 5432,
-    "database": "qredit_db",
+    "database": "qredit_mainnet",
     "user": null,
     "password": "password",
     "poolSize": 20,
@@ -44,10 +44,6 @@
      {
        "ip": "185.85.18.192",
        "port": 4100
-     },
-     {
-       "ip": "136.144.215.24",
-       "port": 4101
      },
      {
        "ip": "18.197.185.113",
