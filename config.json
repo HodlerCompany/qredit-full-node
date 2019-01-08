@@ -1,7 +1,7 @@
 {
   "port": 4101,
   "address": "0.0.0.0",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "fileLogLevel": "info",
   "logFileName": "logs/qredit.log",
   "consoleLogLevel": "debug",
@@ -43,7 +43,15 @@
      },
      {
        "ip": "185.85.18.192",
+       "port": 4101
+     },
+     {
+       "ip": "185.85.18.192",
        "port": 4100
+     },
+     {
+       "ip": "159.69.221.72",
+       "port": 4101
      },
      {
        "ip": "18.197.185.113",
