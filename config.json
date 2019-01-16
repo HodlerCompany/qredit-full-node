@@ -97,6 +97,6 @@
       "cert": "/ssl/xqrpriv.pem"
     }
   },
-  "network": "Qredit",
+  "network": "mainnet",
   "nethash": "5e67037fd290ba7ab378e84a591d251c46eb9770eb134983771fd602233bf193"
 }
